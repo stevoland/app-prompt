@@ -1,0 +1,65 @@
+.app-prompt.ap--android .ap__close:after {
+    top: -2px;
+}
+
+.app-prompt.ap--android {
+    border-color: #212228;
+    background: #3d3d3d url(data:image/gif;base64,R0lGODlhCAAIAIABAFVVVf///yH5BAEHAAEALAAAAAAIAAgAAAINRG4XudroGJBRsYcxKAA7);
+    border-top: 5px solid #88B131;
+    box-shadow: none;
+}
+
+.app-prompt.ap--android .ap__close {
+    border: 0;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    color: #b1b1b3;
+    background: #1c1e21;
+    text-shadow: 0 1px 1px #000;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.8) inset,0 1px 1px rgba(255,255,255,0.3);
+}
+
+.app-prompt.ap--android .ap__close:active {
+    color: #eee;
+}
+
+.app-prompt.ap--android .ap__info {
+    color: #ccc;
+    text-shadow: 0 1px 2px #000;
+}
+
+.app-prompt.ap--android .ap__info strong {
+    color: #fff;
+}
+
+.app-prompt.ap--android .ap__button {
+    min-width: 12%;
+    border: 1px solid #DDDCDC;
+    padding: 1px;
+    color: #d1d1d1;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.app-prompt.ap--android .ap__button span {
+    display: block;
+    padding: 0 10px;
+    background-color: #42B6C9;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#42B6C9),to(#39A9BB));
+    background-image: -moz-linear-gradient(top,#42B6C9,#39A9BB);
+    text-transform: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.app-prompt.ap--android .ap__button:active,
+.app-prompt.ap--android .ap__button:hover {
+    background: none;
+}
+
+.app-prompt.ap--android .ap__button:active span,
+.app-prompt.ap--android .ap__button:hover span {
+    background: #2AC7E1;
+}
